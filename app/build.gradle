@@ -32,6 +32,9 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -54,7 +57,7 @@ dependencies {
 
 
 
-
+    implementation "com.github.lisawray.groupie:groupie:2.10.1"
     implementation 'com.squareup.picasso:picasso:2.8'
 
 }
